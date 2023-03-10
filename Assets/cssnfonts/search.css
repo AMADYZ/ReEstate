@@ -14,6 +14,12 @@
     text-decoration: none;
     color: #FCFCFC;
 }
+.egy-image{
+    object-fit: cover;
+    width: 1950px;
+    height: 679.51px;
+    opacity: 0.53;
+}
 .container{
     position: relative;
     text-align: center;
@@ -135,5 +141,5 @@
   background:#FCFCFC;
   position:absolute;
   left:calc(50%-8%);
-  bottom: -1px;
+  bottom: -12px;
 }
