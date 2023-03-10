@@ -1,6 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    height: 3384PX;
+    height: 4000px;
     background-image: linear-gradient(to bottom, #4D74A4, #9FD0D6);
+    overflow-x: hidden;
 }
