@@ -1,7 +1,6 @@
 let intro=document.querySelector('.intro');
 let logo=document.querySelector('.logo-header');
 let logoSpan=document.querySelectorAll('.logo');
-let centered=document.querySelector('.centered');
 let Rlogo=document.querySelector('.logo-page');
 let logodiv=document.querySelectorAll('.Rlogo');
 
@@ -40,11 +39,6 @@ window.addEventListener('DOMContentLoaded',()=>
                 }, (idx+1)*2800);
 
             });
-
-            
-
-
-
 
         })
 })
