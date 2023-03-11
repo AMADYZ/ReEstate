@@ -403,7 +403,7 @@
         position: relative;
         margin-top: 15%;
         margin-right: 23%;
-        margin-bottom: 70%;
+        margin-bottom: 20%;
         display: flex;
 
     }
@@ -411,7 +411,7 @@
     {
         width: 100%;
         margin-left: 5%;
-       padding-top: 8%;
+        padding-top: 8%;
     }
     .Ltitle-sction4
     {
@@ -438,6 +438,20 @@
         font-family: 'Degular' ;
         line-height: 32px;
 
+    }
+    .botLsection4
+    {
+        margin-top: 3%;
+        font-size: 20px;
+        font-family: 'BW GradualR';
+        display: flex;
+        align-items: center;
+
+
+    }
+    .casestudy
+    {
+        margin-left: 5%;
     }
     
     .maindiv
@@ -478,6 +492,61 @@
         75%{background-image:url(Images/DSC07223j.jpg);background-size: 100% 100%;}
         
     }
+
+    .marquee-w
+    {
+        position: relative;
+        display: block;
+        width:100%;
+        height: 300px;
+        top: 505;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+    }
+    .marquee
+    {
+        position: absolute;
+        display: block;
+        margin: auto auto;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 100%;
+       
+    }
+    .marquee span{
+        display: inline-block;
+        font-family: 'BW Gradual Bold';
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+        font-size: 175px;
+        animation: marquee 18s linear infinite;
+        line-height: 300px;
+        text-align: center;
+        padding-left: 105%;
+        white-space: nowrap;
+    }
+    .marquee2 span
+    {
+     animation-delay: 9s;
+    }
+    @keyframes marquee
+    {
+        0%{
+            transform: translate(0,0);
+        }
+        100%{
+            transform: translate(-100%,0);
+        }
+
+    }
+    .section5
+    {
+        
+    }
+
     
 
     

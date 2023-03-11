@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded',()=>
                         span.classList.remove('active');
                         span.classList.add('fade');
                         
-                    }, (idx+1)*50);
+                    }, (idx+1)*51);
 
                 })
                 
