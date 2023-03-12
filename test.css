@@ -595,6 +595,7 @@
         box-shadow: 5px 6px 7px 5px rgba(0, 0, 0, 0.5);
         border-radius: 1%;
         transition: 0.8s;
+        
     }
     .inRsection6:hover
     {
@@ -611,7 +612,7 @@
     .box{
         padding-left: 5%;
     }
-    .title
+    .title,.title1,.title2
     {
         border-top: 1px solid #404040;
         border-bottom: 1px solid #404040;
@@ -620,16 +621,8 @@
         font-size: 45px; 
         transition: 0.8s;
     }
-    .title1
-    {
-        border-top: 1px solid #404040;
-        border-bottom: 1px solid #404040;
-        background: #fff;
-        font-family: 'BW Gradual Bold';
-        font-size: 45px; 
-        transition: 0.8s;   
-    }
-    .intitle,.intitle1
+    
+    .intitle,.intitle1,.intitle2
 
     {
         margin-top: 6%;
@@ -638,7 +631,7 @@
 
     }
     
-    .content,.content1
+    .content,.content1,.content2
     {
         color: rgba(51, 51, 51, 0.9);
         font-size: 23px;
@@ -649,16 +642,17 @@
         transition: 0.5s;
     }
     
-    .pluss,.pluss1
+    .pluss,.pluss1,.pluss2
     {
         padding-left: 50%;
     }
-    .plusimg,.plusimg1
+    .plusimg,.plusimg1,.plusimg2
     {
        width: 70px;
        height: 70px;
     }
     .example.content,.example1.content1
+    ,.example2.content2
 
     {
         background: #fff;
@@ -667,12 +661,13 @@
     }
     
     .plusimg:hover,
-    .plusimg1:hover
+    .plusimg1:hover,
+    .plusimg2:hover
     {
         cursor: pointer;
     }
     .example.content.toggle,.example1.content1.toggle
-
+    ,.example2.content2.toggle
     {
         height: 0;
         transition: 0.5s;
