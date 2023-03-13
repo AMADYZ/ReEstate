@@ -115,6 +115,7 @@
     padding-right: 30px;
     padding-top: 30px;
     margin-bottom: 25px;
+    transition: transform 600ms;
 }
 .search-button{
     width: 189px;
@@ -124,6 +125,14 @@
     font-size: 16px;
     font-family: 'BW Gradual Bold';
     color: #FCFCFC;
+    transition: transform 500ms;
+}
+.search-button:hover{
+    transform: scale(0.97);
+}
+.search-button:active{
+    color: #43699E;
+    background-color: #cccccc;
 }
 .feature-location{
     display: flex;
