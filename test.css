@@ -582,6 +582,7 @@
     .section6
     {
         display: flex;
+        margin-bottom: 30%;
     }
     .Rsection6
     {
@@ -678,6 +679,22 @@
         height: 0;
         transition: 0.5s;
     }
+    body
+    {
+        background-color: #fff;
+        transition: all 1s ease;
+    }
+    
+    .bg-color
+    {
+        background-color: #000000;
+    }
+
+    .section7
+    {
+        margin-bottom: 30%;
+    }
+
    
     
 
