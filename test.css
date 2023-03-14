@@ -623,7 +623,7 @@
     {
         border-top: 1px solid #404040;
         border-bottom: 1px solid #404040;
-        background: #fff;
+        /* background: #fff; */
         font-family: 'BW Gradual Bold';
         font-size: 45px; 
         transition: 0.8s;
@@ -662,7 +662,7 @@
     ,.example2.content2
 
     {
-        background: #fff;
+        /* background: #fff; */
         visibility: visible;
         transition: 0.5s;
     }
@@ -682,18 +682,109 @@
     body
     {
         background-color: #fff;
-        transition: all 1s ease;
+        transition: all 1.5s ease;
     }
-    
     .bg-color
     {
-        background-color: #000000;
+        background-color: #131313;
     }
 
     .section7
     {
+        color: white;
+    }
+    .Lsection7{
+        max-width: 60%;
+        margin-left: 10%;
+        position: absolute;
+    }
+    .titleLsection7
+    {
+        font-family:'BW Gradual';
+        margin-bottom: 10%;
+        font-size: 29px;
+        
+        
+    }
+    .contentLsection7
+    {
+        font-size: 100px;
+        font-family: 'BW Gradual Bold';
+        line-height: 130%;
+    }
+    .contentLsection7 span{
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff;
+    }
+    .Rsection7
+    {
         margin-bottom: 30%;
     }
+    .Rsection7 img
+    {
+        box-shadow: 1px 2px 8px 4px rgba(256,256,256,0.3);
+        border-radius: 1%;
+
+
+    }
+    .img1section7
+    {
+       margin-left: 63%;
+       margin-top: -10%;
+       width: 30%;
+       height: 50%;
+       transition: 0.6s;
+    }
+    .img2section7
+    {
+        margin-left: 5%;
+        width: 40%;
+        height: 30%;
+        transition: 0.6s;
+    }
+    .img3section7
+    {
+        width: 25%;
+        height: 50%;
+        margin-left: 70%;
+        margin-top: -10%;
+        transition: 0.6s;
+    }
+    .img4section7
+    {
+        width: 25%;
+        height: 50%;
+        margin-left: 10%;
+        margin-top: -5%;
+        transition: 0.6s;
+    }
+    .img5section7
+    {
+        height: 30%;
+        margin-left: 15%;
+        margin-top: 15%;
+        transition: 0.6s;
+
+
+    }
+    .section8
+    {
+        color: #fff;
+        font-size: 140px;
+        font-family: 'BW Gradual';
+        margin-left: 20%;
+        letter-spacing: 15px;
+        margin-bottom: 20%;
+        display: flex;
+
+    }
+    .img4
+    {
+        height: 100px;
+
+    }
+    
 
    
     
