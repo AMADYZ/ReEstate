@@ -19,6 +19,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(228, 66%, 53%);
+  --second-color: linear-gradient(to right, rgb(215, 0, 64), rgb(136, 8, 8));
   --first-color-alt: hsl(228, 66%, 47%);
   --first-color-light: hsl(228, 62%, 59%);
   --first-color-lighten: hsl(228, 100%, 97%);
@@ -137,6 +138,7 @@ button {
 .section__title {
   font-size: var(--h2-font-size);
   margin-bottom: 1rem;
+  color: black;
 }
 
 .section__title span {
@@ -265,7 +267,6 @@ button {
 .home__description{
   color: var(--text-color-light);
   margin-bottom: 2rem;
-  font-size: 2.25rem;
 }
 
 .home__search{
@@ -280,7 +281,7 @@ button {
 
 .home__search i{
   font-size: 1.25rem;
-  color: var(--first-color);
+  color: var(--second-color);
 }
 .home__search-input{
   width: 90%;
@@ -340,17 +341,16 @@ button {
 /*=============== BUTTON ===============*/
 .button{
   display: inline-block;
-  background: linear-gradient(101deg,hsl(228,66%,53%),hsl(228,66%,47%));
+  background: linear-gradient(to right, rgb(215, 0, 64), rgb(136, 8, 8));
   color: #fff;
   padding: 14px 28px;
   border-radius: .5rem;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  box-shadow: 0 4px 8px hsla(228, 66%, 45%, .25);
+  box-shadow: 0 4px 2px #fff;
   transition: .3s;
   cursor: pointer;
 }
-
 .button:hover{
   box-shadow: 0 4px 12px hsla(228, 66%, 45%, .25);
 }
@@ -399,7 +399,7 @@ button {
 }
 .popular__price{
   font-size: var(--h2-font-size);
-  color: var(--text-color);
+  color: black;
   margin-bottom: .25rem;
 }
 
@@ -410,6 +410,7 @@ button {
 .popular__title{
   font-size: var(--h3-font-size);
   margin-bottom: .75rem;
+  color: black;
 }
 
 .popular__description{
@@ -646,10 +647,10 @@ button {
 }
 
 .subscribe__container{
-  background-color: var(--first-color);
+  background-color: black;
   padding: 3rem 2rem;
   border-radius: 1.25rem;
-  border: 6px solid var(--first-color-light);
+  border: 6px solid rgb(177, 177, 177);
   text-align: center;
 }
 
@@ -672,7 +673,8 @@ button {
 }
 
 .subscribe__button:hover{
-  background-color: var(--first-color);
+  background-color: black;
+  color: #fff;
 }
 
 /*=============== FOOTER ===============*/
@@ -800,11 +802,11 @@ button {
 }
 
 @media screen and (max-width: 320px){
-  .nav_menu{
+  .nav__menu{
     padding: 1.3rem 1.5rem;
   }
 
-  .home_value{
+  .home__value{
     column-gap: 1rem;
   }
   .home__img{
@@ -944,15 +946,15 @@ button {
   .active-link{
     background: none;
     box-shadow: none;
-    color: var(--first-color);
+    color: rgb(92, 92, 92);
     font-weight: var(--font-medium);
   }
 
   .scroll-header .nav__link{
-    color: var(--text-color);
+    color: rgb(92, 92, 92);
   }
   .scroll-header .active-link{
-    color: var(--first-color);
+    color: rgb(92, 92, 92);
   }
 
   .home{
