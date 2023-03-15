@@ -99,3 +99,7 @@ sr.reveal('.home__images', {delay: 800, origin: 'bottom'})
 sr.reveal('.logos__img', {interval: 100})
 sr.reveal('.value__images, . contact__content', {orgin: 'left'})
 sr.reveal('.value__content, . contact__images', {orgin: 'left'})
+
+function validateForm(){
+    
+}
