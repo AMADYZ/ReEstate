@@ -65,6 +65,16 @@
 }
 
 /*=============== BASE ===============*/
+h1{
+  font-family: 'BW Gradual';
+}
+h2{
+  font-family: 'BW Gradual';
+}
+span{
+  font-family: 'Degular';
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -182,6 +192,10 @@ button {
   transition: .3s;
 }
 
+.nav__logo:focus{
+  transform: rotate(180deg);
+}
+
 .nav__logo i{
   font-size: 1rem;
 }
@@ -257,6 +271,7 @@ button {
 .home__title,
 .home__value-number{
   color: #fff;
+  font-family: 'BW Gradual Bold';
 }
 .home__title{
   font-size: var(--biggest-font-size);
@@ -352,7 +367,7 @@ button {
   cursor: pointer;
 }
 .button:hover{
-  box-shadow: 0 4px 12px hsla(228, 66%, 45%, .25);
+  box-shadow: 0 0 7px rgb(175, 175, 175);
 }
 
 .nav__button{
@@ -393,6 +408,9 @@ button {
 .popular__img{
   border-radius: 1rem;
   margin-bottom: 1rem;
+  object-fit: cover;
+  width: 540px; 
+  height: 235px;
 }
 .popular__data{
   padding: 0 1rem 0 .5rem;
@@ -647,7 +665,7 @@ button {
 }
 
 .subscribe__container{
-  background-color: black;
+  background: linear-gradient(170deg,hsl(0,0%,22%)0%, hsl(0,0%,6%)30%);
   padding: 3rem 2rem;
   border-radius: 1.25rem;
   border: 6px solid rgb(177, 177, 177);
@@ -667,9 +685,11 @@ button {
 }
 
 .subscribe__button{
-  border: 2px solid #fff;
-  background: var(--first-color-light);
+  border: 1px solid #fff;
+  background: linear-gradient(to right, rgb(215, 0, 64), rgb(136, 8, 8));;
+  color: #fff;
   font-size: var(--small-font-size);
+  box-shadow: none;
 }
 
 .subscribe__button:hover{
@@ -680,6 +700,8 @@ button {
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__logo{
@@ -690,6 +712,7 @@ button {
   align-items: center;
   column-gap: .25rem;
   margin-bottom: .75rem;
+  margin-right: 12rem;
 }
 
 .footer__logo i{
@@ -971,7 +994,7 @@ button {
     margin-bottom: 2rem;
   }
   .home__description,.home__search{
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .home__value{
     column-gap: 3.5rem;
