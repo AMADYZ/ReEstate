@@ -279,9 +279,12 @@ button {
   margin-bottom: 1.25rem;
 }
 
-.home__description{
+.home_description{
   color: var(--text-color-light);
-  margin-bottom: 2rem;
+  margin-bottom: .70rem;
+  margin-top: .10rem;
+  font-size: 1.25rem;
+  font-family: 'Degular';
 }
 
 .home__search{
@@ -292,10 +295,11 @@ button {
   border-radius: .75rem;
   border: 3px solid var(--text-color-light);
   margin-bottom: 2rem;
+  font-size: 1rem;
 }
 
 .home__search i{
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   color: var(--second-color);
 }
 .home__search-input{
