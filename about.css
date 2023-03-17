@@ -244,4 +244,77 @@
         align-items: center;
     }
 /*............ Section4............. */
+    .section4{
+    margin-top:-10% ;
+    margin-bottom: 30%;
+    }
+    .Lsection4
+    {
+        font-size:65px;
+        font-family: 'BW Gradual';
+        margin: 5%;
+    }
+    .Rsection4
+    {
+        margin-left: 40%;
+        margin-top: -10%;
+        margin-right: 5%;
+    }
+    .block1
+    {
+        border-bottom: 2px solid rgba(192, 192, 192,0.5);
+        display: flex;
+        margin-bottom: 10%;
+    }
+    .inblock1
+    {
+        margin-bottom: 5%;
+        display: flex;
+    }
+    .block1num
+    {
+        font-size:220px;
+        font-family: 'BW Gradual';
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+        margin-top: 2%; 
+        width: fit-content;
+        position: relative;
+    }
+    .block1num:before
+    {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-text-fill-color: black;
+        transition: 1s;
+        height: 0;
+        overflow: hidden;
+    }
+    .block1num:hover:before
+    {
+        height: 100%;
+    }
+    .block1cont
+    {
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .block1title
+    {
+        font-size:24px;
+        font-family: 'BW Gradual';
+    }
+    .block1body
+    {
+        margin-top: 10%;
+        color: rgba(51, 51, 51, 0.9);
+        font-size: 23px;
+        font-family: 'Degular';
+        line-height: 32px;
+
+    }
+    
     
