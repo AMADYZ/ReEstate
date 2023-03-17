@@ -99,6 +99,7 @@ body {
   /* For animation dark mode */
   padding-top: 10rem;
   padding-right: 0;
+  min-height: 100vh;
 }
 
 h1,
@@ -110,6 +111,7 @@ h3 {
 
 ul {
   list-style: none;
+  
 }
 
 a {
@@ -188,6 +190,7 @@ button {
   row-gap: 1rem;
   column-gap: 2rem;
   margin-left: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .container {
@@ -276,15 +279,63 @@ button {
   background-color: #fff;
 }
 
-.view-button {
-  margin-left: 1em;
-}
-.pagination ul{
-  display: flex;
-  text-align: center;
-}
 .__title{
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  padding-bottom: 4rem;
+  font-family: 'BW Gradual Bold';
+  color: #fff;
+}
+
+.view-button {
+  margin-left: 1em;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination ul{
+  position: relative;
+  background: #fff;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+.pagination ul li{
+  list-style: none;
+  line-height: 50px;
+  margin: 0 5px;
+}
+.pagination ul li.pageNumber{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.pagination ul li a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.pagination ul li.pageNumber:hover a,
+.pagination ul li.pageNumber.active a{
+  background: #333;
+  color: #fff;
+}
+.pagination ul li:first-child{
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.pagination ul li:last-child{
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
 }
