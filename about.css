@@ -769,7 +769,199 @@
             font-family: 'Degular';
             line-height: 32px;
         }
+        .section5
+    {
+        margin-top: 10%;
+        display: flex;
+    }
+    .Lsection5
+    {
+        font-size:100px;
+        font-family: 'BW Gradual';
+        width: 60%;
+        margin-left: 5%;
+    }
+    .Lsection5 span
+    {
+        color: white;
+        -webkit-text-stroke: 1px black;
+    }
+    .Rsection5
+    {
+        max-width: 40%;
+        margin-top: 3%;
+        margin-right: 5%;
+    }
+    .inRsection5
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        color: rgba(48, 48, 48, 0.9);
+        font-size: 19px;
+        line-height: 32px;
+    }
 
+
+
+
+
+        .section6
+    {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .uppersection6,.lowersection6
+    {
+        display: flex;
+        margin-left: 15%;
+    }
+    .lowersection6
+    {
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .disc1,.disc2,.disc3,.disc4,.disc5
+    {
+        margin-right: 8%;
+        transition: 0.5s;
+    }
+    .disc1
+    {
+        margin-right: 10%;
+    }
+    .disc2
+    {
+        margin-right: 8%;
+    }
+    .disc4
+    {
+        margin-right: 10%;
+
+    }
+    .disc3
+    {
+        margin-right: 5%;
+    }
+    .disc1:hover,.disc2:hover,.disc3:hover,.disc4:hover,.disc5:hover
+    {
+        color: rgb(102, 102, 102);
+        -webkit-transform: scale(1.2);
+        cursor: pointer;
+        
+    }
+    .name1,.name2,.name3,.name4,.name5
+    {
+        font-size:20px;
+        font-family: 'BW Gradual';
+    }
+    .smth1,.smth2,.smth3,.smth4,.smth5
+    {
+        margin-top: 5%;
+        color: rgba(82, 82, 82, 0.9);
+        font-size: 13px;
+    }
+    .smth1
+    {
+        margin-top:5%;
+        margin-left:-1%;
+    }
+    .smth2
+    {
+        margin-top:3%;
+        margin-left:-1%;
+    }
+    .smth3
+    {
+        margin-top:2%;
+        margin-left:1%;
+    }
+    .smth4
+    {
+        margin-left: 1%;
+        width: 100%;
+    }
+    .smth5
+    {
+        margin-left: 1%;
+        width: 100%;
+
+    }
+    .watermark
+   {
+    font-size:180px;
+    font-family: 'BW Gradual';
+    position:absolute;
+    color: rgba(213, 213, 213, 0.3);
+   }
+
+   .section7
+   {
+    margin-top: 35%;
+    display: flex;
+    margin-bottom: 15%;
+   }
+   .Lsection7
+   {
+    width: 60%;
+   }
+   .imgsection7
+    {
+       margin-left: 5%;
+       margin-top: 5%;
+       width: 300%;
+       transition: 1s;
+       box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.5);
+       border-radius: 1%;
+
+    }
+    .imgsection7:hover
+    {
+        margin-left: 6%;
+    }
+    .Rsection7
+    {
+        margin-left: 40%;
+
+    }
+    .titleRsection7
+    {
+        font-size: 50px;
+        font-family: 'BW Gradual';
+        line-height: 60px;
+        margin-bottom: 10%;
+
+    }
+    .titleRsection7 span
+    {
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+    }
+    .bodyRsection7
+    {
+        margin-right: 5%;
+        color: rgba(48, 48, 48, 0.9);
+        font-size: 20px;
+        line-height: 32px;
+        font-family: 'Degular';
+    }
+
+    .section8
+    {
+        color: #000000;
+        font-size: 100px;
+        font-family: 'BW Gradual';
+        margin-left: 13%;
+        letter-spacing: 10px;
+        margin-bottom: 20%;
+        display: flex;
+
+    }
+    .img4
+    {
+        height: 70px;
+
+    }
 
 
 
