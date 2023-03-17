@@ -381,7 +381,7 @@
         display: flex;
         align-items: center;
     }
-    .img3
+    #img3
     {
       height: 30px;
     }
@@ -771,7 +771,7 @@
         display: flex;
 
     }
-    .img4
+    #img4
     {
         height: 100px;
 
