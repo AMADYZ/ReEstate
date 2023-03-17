@@ -515,5 +515,265 @@
         height: 100px;
 
     }
+    @media screen and (max-width: 1366px)
+    {
+        .section1{
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+        .Lsection1
+        {
+            font-size: 25px;
+            margin-left: 6%;
+            margin-top: 10%;
+            font-family:'BW Gradual';
+            color: rgba(35, 35, 35,.9);
+            display: inline-block;
+            width: 40%;
+        }
+        .Rsection1
+        {
+            display: inline-block;
+            width: 60%;
+            margin-left: 30%;
+            margin-top: -10%;
+        }
+        .inRsection1
+        {
+            font-size: 50px;
+            font-family: 'BW Gradual';
+            padding-left: 15%;
+            
+        }
+    .section2
+    {
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    .Lsection2
+    {
+        font-size: 75px;
+        font-family: 'BW Gradual';
+        min-width: 45%;
+        margin-right: 8%;
+    }
+    .Lsection2_nofill
+    {
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+    }
+    .titleRsection2
+    {
+        color: rgba(29, 29, 29, 0.9);
+        font-size: 23px;
+        font-family: 'BW Gradual' ;
+        line-height: 32px;
+        margin-bottom: 7%;
+        padding-right: 10%;
+        padding-top: 5%;
+
+    }
+    .topRsection2
+    {
+        color: rgba(36, 36, 36, 0.9);
+        font-size: 25px;
+        font-family: 'Degular' ;
+        line-height: 31px;
+        padding-right: 7%;
+        margin-bottom: 14%;
+
+    }
+    .botinRsection2
+    {
+        color: rgba(36, 36, 36, 0.9);
+        margin-top: 3%;
+        font-size: 20px;
+        font-family: 'BW Gradual';
+        display: flex;
+        align-items: center;
+    }
+    .marquee-w
+    {
+        position: relative;
+        display: block;
+        width:100%;
+        height: 300px;
+        top: 505;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+        
+    }
+    .marquee
+    {
+        position: absolute;
+        display: block;
+        margin: auto auto;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 100%;
+       
+    }
+    .marquee span{
+        display: inline-block;
+        font-family: 'BW Gradual Bold';
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+        font-size: 130px;
+        animation: marquee 32s linear infinite;
+        line-height: 300px;
+        text-align: center;
+        padding-left: 105%;
+        white-space: nowrap;
+    }
+    .marquee2 span
+    {
+     animation-delay:16s;
+    }
+    @keyframes marquee
+    {
+        0%{
+            transform: translate(0,0);
+        }
+        100%{
+            transform: translate(-100%,0);
+        }
+
+    }
+    .section3
+    {
+        display: flex;
+        margin-bottom: 25%;
+    }
+    .Lsection3
+    {
+        width: 100%;
+        margin-left: 4%;
+        max-width: 35%;
+        margin-top: 15%;
+        transition: 1s;
+    }
+    .inRsection3
+    {
+        width: 100%;
+        box-shadow: 5px 6px 7px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 1%;
+        transition: 0.8s;
+    }
+    .Lsection3:hover
+    {
+        width: 101%;
+        margin-top: 10%;
+    }
+    .Rsection3
+    {
+        padding-left: 8%;
+        width: 65%;
+        padding-right: 4%;
+        transition: 0.7s;
+    }
+    .Rsection3:hover
+    {
+        margin-top: 2%;
+    }
+    .upinLsection3
+    {
+        font-size: 30px;
+        line-height: 50px; 
+    }
+    .midinLsection3
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+    .botinLsection3
+    {
+        font-size: 18px;
+    }
+
+    .section4{
+        margin-top:-10% ;
+        margin-bottom: 10%;
+        }
+        .Lsection4
+        {
+            font-size:50px;
+            font-family: 'BW Gradual';
+            margin: 5%;
+        }
+        .Rsection4
+        {
+            margin-left: 40%;
+            margin-top: -10%;
+            margin-right: 5%;
+        }
+        .block1
+        {
+            border-bottom: 2px solid rgba(192, 192, 192,0.5);
+            display: flex;
+            margin-bottom: 10%;
+        }
+        .inblock1
+        {
+            margin-bottom: 5%;
+            display: flex;
+        }
+        .block1num
+        {
+            font-size:180px;
+            font-family: 'BW Gradual';
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000000;
+            margin-top: 2%; 
+            width: fit-content;
+            position: relative;
+        }
+        .block1num:before
+        {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-text-fill-color: black;
+            transition: 1s;
+            height: 0;
+            overflow: hidden;
+        }
+        .block1num:hover:before
+        {
+            height: 100%;
+        }
+        .block1cont
+        {
+            margin-left: 5%;
+            margin-top: 4%;
+        }
+        .block1title
+        {
+            font-size:20px;
+            font-family: 'BW Gradual';
+        }
+        .block1body
+        {
+            margin-top: 10%;
+            color: rgba(51, 51, 51, 0.9);
+            font-size: 19px;
+            font-family: 'Degular';
+            line-height: 32px;
+        }
+
+
+
+
+
+    }
     
   
