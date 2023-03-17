@@ -48,18 +48,20 @@
     {
         transform: translate(-50%,-50%);
         position: absolute;
-
+        
+        display: flex;
+        margin-left: 360px;
     }
     .Rlogo
     {
         position: relative;
         display: block;
-        left: -40px;
+        top: -40px;
         opacity: 0;
     }
     .Rlogo.active 
     {
-        left: 0;
+        top: 0;
         opacity: 1;
         transition: ease-in-out 1s;
     }
@@ -92,10 +94,6 @@
     margin-top: 30px;
     font-size: 30px;
     }
-
-    
-
-
 
     .centered {
         position: absolute;
@@ -217,10 +215,6 @@
        
         
     }
-    
-    
-
-    
     .submit-btn
     {
         width: 85%;
@@ -461,9 +455,9 @@
     {
         
         width: 75%;
-        height: 500px;
+        height: 450px;
         position: absolute;
-        left: 50%;
+        left: 52%;
         top: 20%;
         transform: translate(-50% -50%);
         background-image:url(Images/DSC072232.jpg);
@@ -576,8 +570,6 @@
         font-family: 'BW GradualR';
         display: flex;
         align-items: center;
-
-    
     }
     .section6
     {
@@ -771,10 +763,10 @@
     .section8
     {
         color: #fff;
-        font-size: 140px;
+        font-size: 160px;
         font-family: 'BW Gradual';
         margin-left: 20%;
-        letter-spacing: 15px;
+        letter-spacing: 10px;
         margin-bottom: 20%;
         display: flex;
 
@@ -782,6 +774,75 @@
     .img4
     {
         height: 100px;
+
+    }
+    /*................ Responsive............. */
+    @media screen and (max-width: 1366px)
+    {
+        .logo-header
+    {
+        margin-top: 4%;
+        font-size: 100px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-family: 'BW Gradual';
+        font-size: 190px;
+        color: white;
+        white-space: nowrap;
+        line-height: 200px;
+        transition: 1s;
+        margin-left: -7%;
+    }
+    .inRsection2
+    {
+        font-size: 60px;
+    }
+    .title,.title1,.title2
+    {
+        font-size: 35px; 
+    }
+    .content
+    {
+        font-size: 21px;
+    }
+    .content1,.content2
+    {
+        font-size: 21px;
+        height: 200px;
+    }
+    .contentLsection7
+    {
+        font-size: 90px;
+        font-family: 'BW Gradual Bold';
+        line-height: 120%;
+    }
+    .img5section7
+    {
+        height: 25%;
+        margin-left: 40%;
+        margin-top: -10%;
+        transition: 0.6s;
+
+
+    }
+    .section8
+    {
+        color: #fff;
+        font-size: 160px;
+        font-family: 'BW Gradual';
+        margin-left: 13%;
+        letter-spacing: 10px;
+        margin-bottom: 20%;
+        display: flex;
+
+    }
+
+        
+
 
     }
     
