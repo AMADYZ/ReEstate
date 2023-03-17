@@ -450,6 +450,7 @@
    {
     margin-top: 35%;
     display: flex;
+    margin-bottom: 15%;
    }
    .Lsection7
    {
@@ -468,10 +469,17 @@
     {
         margin-left: 6%;
     }
+    .Rsection7
+    {
+        margin-left: 15%;
+
+    }
     .titleRsection7
     {
         font-size: 95px;
         font-family: 'BW Gradual';
+        line-height: 100px;
+        margin-bottom: 10%;
 
     }
     .titleRsection7 span
@@ -480,6 +488,32 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #000000;
     }
+    .bodyRsection7
+    {
+        margin-right: 5%;
+        color: rgba(48, 48, 48, 0.9);
+        font-size: 30px;
+        line-height: 35px;
+        font-family: 'Degular';
+    }
 
+ /*...............Section8...............*/
+ 
+    .section8
+    {
+        color: #000000;
+        font-size: 160px;
+        font-family: 'BW Gradual';
+        margin-left: 20%;
+        letter-spacing: 10px;
+        margin-bottom: 20%;
+        display: flex;
+
+    }
+    .img4
+    {
+        height: 100px;
+
+    }
     
   
