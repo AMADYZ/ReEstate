@@ -69,7 +69,8 @@ h1{
   font-family: 'BW Gradual';
 }
 h2{
-  font-family: 'BW Gradual';
+  font-size: 4.25rem;
+  font-family: 'BW Gradual Bold';
 }
 span{
   font-family: 'Degular';
@@ -146,7 +147,7 @@ button {
 }
 
 .section__title {
-  font-size: 3.25rem;
+  font-size: 4.25rem;
   margin-bottom: 1rem;
   color: black;
   font-family: 'BW Gradual Bold';
@@ -952,6 +953,7 @@ button {
   }
   .section__title{
     font-size: 4.25rem;
+    font-family: 'BW Gradual Bold';
   }
   .section__subtitle{
     font-size: var(--normal-font-size);
