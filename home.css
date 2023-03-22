@@ -48,7 +48,6 @@
     {
         transform: translate(-50%,-50%);
         position: absolute;
-        
         display: flex;
         margin-left: 360px;
     }
@@ -851,6 +850,12 @@
     /*------------------------------------------------------*/
     @media screen and (max-width: 350px) 
     {
+        .back {
+            background-image: url(Images/The_Press_Intro_Image_4.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
     .intro
     {
         position: fixed;
@@ -872,26 +877,6 @@
         font-family:'BW Gradual Bold' ;
         font-size: 50px;
     }
-    .logo-page
-    {
-        transform: translate(-50%,-50%);
-        position: absolute;
-        display: flex;
-        margin-left: 360px;
-    }
-    .Rlogo
-    {
-        position: relative;
-        display: block;
-        top: -40px;
-        opacity: 0;
-    }
-    .Rlogo.active 
-    {
-        top: 0;
-        opacity: 1;
-        transition: ease-in-out 1s;
-    }
     .logo{
         position: relative;
         display: inline-block;
@@ -910,6 +895,74 @@
         opacity: 0;
         transition: ease-in-out 0.8s;
     }
+    .firstletter
+    {
+        color: white;
+    }
+    .centered {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+        font-family: 'BW Gradual';
+        font-size: 65px;
+        color: rgb(223, 223, 223);
+        white-space: nowrap;
+        line-height: 200px;
+        transition: 1s;
+    }
+    .Rlogo
+    {
+        position: relative;
+        display: block;
+        top: -40px;
+        opacity: 0;
+    }
+    .Rlogo.active 
+    {
+        top: 0;
+        opacity: 1;
+        transition: ease-in-out 1s;
+    }
+    .logo-page
+    {
+        transform: translate(-50%,-50%);
+        position: absolute;
+        display: flex;
+        margin-left: 180px;
+    }
+    .section2{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .Lsection2
+    {
+        font-size: 16px;
+        margin: 6%;
+        margin-top: 7%;
+        font-family:'BW Gradual';
+        color: rgba(35, 35, 35,.9);
+        display: inline-block;
+        width: 50%;
+        display: block;
+    }
+    .Rsection2
+    {
+        display: block;
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 10%;
+        
+    }
+    .inRsection2
+    {
+        font-size: 27px;
+        padding-right: 9%;
+        font-family: 'BW Gradual Bold'
+    }
+
+
+    
 
 
 

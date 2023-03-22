@@ -71,7 +71,7 @@ function myFunction(x) {
                 
             }, 2000);
             setTimeout(() => {
-                intro.style.top='-400vh';
+                intro.style.top='-300vh';
                 
             }, 2600);
 
