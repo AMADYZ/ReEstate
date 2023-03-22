@@ -83,3 +83,15 @@ function validatepass(input1,input2){
     }
 
 }
+function validate(form){
+    let fail='';
+    fail&=validateUserName(form.username.value);
+    fail&=validateEmail(form.email.value);
+    fail&=validatePhone(form.phone.value);
+    fail&=validatepass(form.pass.value,form.pass1.value);
+    if(fail)
+                    return true;
+                else{
+                    return false;
+                }
+}
