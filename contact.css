@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'BW Gradual';
+    src: url(fonts/BwGradualDEMO-Medium.otf);
+}
+@font-face {
+    font-family: 'BW Gradual Bold';
+    src: url(fonts/BwGradualDEMO-Bold.otf);
+}
+@font-face {
+    font-family: 'Degular';
+    src: url(fonts/Degular-Light.ttf);
+}
+@font-face {
+    font-family: 'BW GradualR';
+    src: url(fonts/BwGradualDEMO-Regular.otf);
+}
+body{
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+.section1{
+    margin-bottom: 10%;
+}
+.TopLsection1
+{
+    font-size: 1000%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+
+
+}
+.TopLsection1 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.BotLsection1{
+    font-size: 300%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    color: grey;
+}
+.BotLsection1 span:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+/*---------section---------2*/
+.section2{
+    display: flex;
+
+}
+.Lection2{
+    display: inline-block;
+}
+.inLsection2{
+    width: 50%;
+    margin-left: 6%;
+    display: inline-block;
+
+}
+.TopRsection2{
+    display: inline-block;
+    /* margin: 2%; */
+    margin-left: -180%;
+}
+.TopLeftRsection2
+{
+display: inline-block;
+}
+.line2{
+    color: gray;
+}
+.title2{
+    color: gray;
+    font-size: 150%;
+    margin-top: 20px;
+    
+}
+.body2{
+    font-size: 220%;
+
+}
+
