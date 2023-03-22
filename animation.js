@@ -42,3 +42,54 @@ window.addEventListener('DOMContentLoaded',()=>
 
         })
 })
+
+
+
+function myFunction(x) {
+    if (x.matches) {
+        window.addEventListener('DOMContentLoaded',()=>
+{
+    setTimeout(()=>
+        {
+            logoSpan.forEach((span,idx)=>{
+                setTimeout(() => {
+                    span.classList.add('active');
+                    
+                }, (idx+1)*400);
+
+            });
+            setTimeout(() => {
+                logoSpan.forEach((span,idx)=>
+                {
+                    setTimeout(() => {
+                        span.classList.remove('active');
+                        span.classList.add('fade');
+                        
+                    }, (idx+1)*51);
+
+                })
+                
+            }, 2000);
+            setTimeout(() => {
+                intro.style.top='-400vh';
+                
+            }, 2600);
+
+            logodiv.forEach((div,idx)=>{
+                setTimeout(() => {
+                    div.classList.add('active');
+                    
+                }, (idx+1)*2800);
+
+            });
+
+        })
+})
+ 
+     
+    }
+  }
+
+var x = window.matchMedia("(max-width: 350px)");
+myFunction(x);
+x.addListener(myFunction);

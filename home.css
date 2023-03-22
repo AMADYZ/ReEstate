@@ -777,7 +777,7 @@
 
     }
     /*................ Responsive............. */
-    @media screen and (max-width: 1366px)
+        @media screen and (max-width: 1366px)
     {
         .logo-header
     {
@@ -832,7 +832,7 @@
     .section8
     {
         color: #fff;
-        font-size: 160px;
+        font-size: 140px;
         font-family: 'BW Gradual';
         margin-left: 13%;
         letter-spacing: 10px;
@@ -840,8 +840,80 @@
         display: flex;
 
     }
+    #img4
+    {
+        height: 50px;
 
-        
+    }
+    }
+
+
+    /*------------------------------------------------------*/
+    @media screen and (max-width: 350px) 
+    {
+    .intro
+    {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #171717;
+        transition: 1.2s;
+    }
+    .logo-header
+    {
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-family:'BW Gradual Bold' ;
+        font-size: 50px;
+    }
+    .logo-page
+    {
+        transform: translate(-50%,-50%);
+        position: absolute;
+        display: flex;
+        margin-left: 360px;
+    }
+    .Rlogo
+    {
+        position: relative;
+        display: block;
+        top: -40px;
+        opacity: 0;
+    }
+    .Rlogo.active 
+    {
+        top: 0;
+        opacity: 1;
+        transition: ease-in-out 1s;
+    }
+    .logo{
+        position: relative;
+        display: inline-block;
+        bottom: -40px;
+        opacity: 0;
+    }
+    .logo.active
+    {
+        bottom: 0;
+        opacity: 1;
+        transition: ease-in-out 0.8s;
+    }
+    .logo.fade
+    {
+        bottom: 180px;
+        opacity: 0;
+        transition: ease-in-out 0.8s;
+    }
+
+
+
+
 
 
     }
