@@ -35,3 +35,51 @@ function validateEmail(input) {
     return true;
     }
 }
+function validatePhone(input) {
+    const phoneno = /^\d{11}$/;
+    if(!phoneno.test(input))
+    {
+        document.getElementById('phoneerr').innerHTML='Check your Phone number.';
+        document.getElementById('er3').style.opacity='1';
+        return false;
+    }
+    else{
+        document.getElementById('phoneerr').innerHTML='';
+        document.getElementById('er3').style.opacity='0';
+        return true;
+        }
+}
+function validatepass(input1,input2){
+    let check=true;
+    if(input1=='')
+    {
+        check=false;
+        document.getElementById('passErr').innerHTML='Check Your Password';
+        document.getElementById('er4').style.opacity='1';
+    }
+    else{
+        document.getElementById('passErr').innerHTML='';
+        document.getElementById('er4').style.opacity='0';
+    }
+    if(input1.length<=8)
+    {
+        check=false;
+        document.getElementById('passErr').innerHTML='Check Your Password must be 8 char';
+        document.getElementById('er4').style.opacity='1';
+    }
+    else{
+        document.getElementById('passErr').innerHTML='';
+        document.getElementById('er4').style.opacity='0';
+    }
+    if(input1!=input2||input2=='')
+    {
+        check=false;
+        document.getElementById('passcErr').innerHTML='Check Your Confirm Password';
+        document.getElementById('er5').style.opacity='1';
+    }
+    else{
+        document.getElementById('passcErr').innerHTML='';
+        document.getElementById('er5').style.opacity='0';
+    }
+
+}
