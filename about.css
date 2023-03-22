@@ -504,7 +504,8 @@
         color: #000000;
         font-size: 160px;
         font-family: 'BW Gradual';
-        margin-left: 20%;
+        margin-top: 30%;
+        margin-left: 17%;
         letter-spacing: 10px;
         margin-bottom: 20%;
         display: flex;
@@ -512,7 +513,7 @@
     }
     .img4
     {
-        height: 100px;
+        height: 170px;
 
     }
     @media screen and (max-width: 1366px)
@@ -949,10 +950,10 @@
     .section8
     {
         color: #000000;
-        font-size: 100px;
+        font-size: 150px;
         font-family: 'BW Gradual';
-        margin-left: 24%;
-        margin-top: 20%;
+        margin-left: 15%;
+        margin-top: 30%;
         letter-spacing: 10px;
         margin-bottom: 20%;
         display: flex;
@@ -960,7 +961,7 @@
     }
     .img4
     {
-        height: 70px;
+        height: 100px;
 
     }
 
