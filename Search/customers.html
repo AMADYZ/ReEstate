@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
+    <link rel="stylesheet" href="assets/css/customers.css">
     <link rel="stylesheet" href="assets/css/admin-css.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -68,11 +69,11 @@
             </div>
 
             <div class="sidebar">
-                <a class="active" href="dashboard.html">
+                <a href="dashboard.html">
                     <i class='bx bxs-grid-alt' ></i>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="customers.html">
+                <a class="active" href="customers.html">
                     <i class='bx bxs-user-account' ></i>
                     <h3>Customers</h3>
                 </a>
@@ -112,9 +113,53 @@
             </div>
         </aside>
         <!--=================== END OF ASIDE ===================-->
-        <main>
-            <h1>Dashboard</h1>
-            <div class="date">
+         <main>
+            <h1>Customers</h1>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile">
+                    <div class="profile-photo">
+                        <img src="assets/img-admin/profile-2.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="add-delete">
+                        <button class="remove"><i class='bx bx-minus'></i></button>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile">
+                    <div class="profile-photo">
+                        <img src="assets/img-admin/profile-3.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="add-delete">
+                        <button class="remove"><i class='bx bx-minus'></i></button>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile">
+                    <div class="profile-photo">
+                        <img src="assets/img-admin/profile-4.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="add-delete">
+                        <button class="remove"><i class='bx bx-minus'></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="date">
                 <input type="date">
             </div>
             <div class="insights">
@@ -138,7 +183,7 @@
                         Last 24 Hours
                     </small>
                 </div>
-                 <!-- ---------------------- END OF SALES --------------------- -->
+                 ---------------------- END OF SALES ---------------------
                  <div class="expenses">
                     <i class='bx bxs-bar-chart-alt-2'></i>
                     <div class="middle">
@@ -159,7 +204,7 @@
                         Last 24 Hours
                     </small>
                 </div>
-                 <!-- ---------------------- END OF EXPENSES --------------------- -->
+                  ---------------------- END OF EXPENSES ---------------------
                  <div class="income">
                     <i class='bx bx-line-chart'></i>
                     <div class="middle">
@@ -180,10 +225,10 @@
                         Last 24 Hours
                     </small>
                 </div>
-                 <!-- ---------------------- END OF INCOME --------------------- -->
+                  ---------------------- END OF INCOME --------------------- 
             </div>
-            <!-- -------------------- END OF INSIGHTS -------------------- -->
-            <div class="recent-orders">
+             -------------------- END OF INSIGHTS -------------------- -->
+            <!-- <div class="recent-orders">
                 <h2>Recent Orders</h2>
                 <table>
                     <thead>
@@ -233,6 +278,21 @@
                     </tbody>
                 </table>
                 <a href="#">Show All</a>
+            </div> -->
+            <div class="add-user">
+                <h2>Add User</h2>
+                <div class="user-info">
+                    <div class="user-add">
+                        <div class="username">
+                            <label for="username">Username</label>
+                            <input type="text" placeholder="username">
+                        </div>
+                        <div class="password">
+                            <label for="pass">Password</label>
+                            <input type="text" placeholder="password">
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <!-- ----------------------- END OF MAIN -------------------- -->
