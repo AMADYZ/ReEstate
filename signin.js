@@ -95,3 +95,39 @@ function validate(form){
                     return false;
                 }
 }
+
+
+
+
+function invalidate(form){
+
+    fail&=validateEmail_in(form.email.value);
+    if(fail)
+    return true;
+else{
+    return false;
+}
+
+}
+
+function validateEmail_in(input) {
+
+    const mymail="user@steelwave"
+    if (input!=mymail)
+     {
+        document.getElementById('emailErr').innerHTML='Check your email.';
+        document.getElementById('er2').style.opacity='1';
+        return false;
+    }
+    else{
+    document.getElementById('emailErr').innerHTML='';
+    document.getElementById('er2').style.opacity='0';
+    return true;
+    }
+}
+
+
+
+
+
+

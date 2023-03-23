@@ -58,15 +58,15 @@
                 <div id='emailErr' class='err'></div>
                 <i class="error-icon fas fa-exclamation-circle" id="er2"></i>
 
-                <input class="init type="text" id="phonee" name="phone" placeholder="Phone">
+                <input class="init" type="text" id="phonee" name="phone" placeholder="Phone">
                 <div id='phoneerr' class='err'></div>
                 <i class="error-icon fas fa-exclamation-circle" id="er3"></i>
 
-                <input class="init type="password" name="pass" placeholder="Password">
+                <input class="init" type="password" name="pass" placeholder="Password">
                 <div id='passErr' class='err'></div>
                 <i class="error-icon fas fa-exclamation-circle" id="er4"></i>
 
-                <input class="init type="password" name="pass1" placeholder="Confirm-Password">
+                <input class="init" type="password" name="pass1" placeholder="Confirm-Password">
                 <div id='passcErr' class='err'></div>
                 <i class="error-icon fas fa-exclamation-circle" id="er5"></i>
                 <button type="submit">Sign Up</button>
@@ -74,7 +74,7 @@
             </form>
         </div>
         <div class="form-container signin-form">
-            <form action="#">
+            <form action="#" onsubmit="return invalidate(this)">
                 <div class="title">Sign In</div>
                 <div class="Social-cont">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -84,8 +84,13 @@
                 <span class="intitle">or use your account</span>
                 <br>
                 <input class="init" type="email" placeholder="Email">
+                <div id='emailErr_in' class='err'></div>
+                <i class="error-icon fas fa-exclamation-circle" id="er1_in"></i>
+
                 <input class="init" type="password" placeholder="Password">
-                <button>Sign In</button>
+                <div id='passErr_in' class='err'></div>
+                <i class="error-icon fas fa-exclamation-circle" id="er2_in"></i>
+                <button type="submit">Sign In</button>
             </form>
         </div>
         <div class="overlay-container">
@@ -107,7 +112,7 @@
             </div>
         </div>
     </div>
-    <script src="script.js">
+    <script src="signin.js">
     </script>
 </body>
 </html>
