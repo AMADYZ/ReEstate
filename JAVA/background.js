@@ -18,7 +18,7 @@ window.addEventListener('scroll',changeBackground);
 
 function myFunction(x) {
     if (x.matches) {
-    num=7;
+    num=6;
     }
     else{
         num=7.8;
