@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <aside>
             <div class="top">
                 <div class="logo">
-                    <svg width="25" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: var(--text-color-light);">
+                    <svg width="25" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="color: var(--text-color-light);">
                         <g clip-path="url(#clip0)">
                             <path
                                 d="M17.6056 8.59195C19.4697 6.72793 21.2813 5.51209 21.6437 5.87442C22.01 6.24079 20.7942 8.04845 18.9261 9.91247C17.0621 11.7765 15.2504 12.9923 14.8881 12.63C14.5258 12.2677 15.7416 10.456 17.6056 8.59195Z"
@@ -70,11 +73,11 @@
 
             <div class="sidebar">
                 <a href="dashboard.html">
-                    <i class='bx bxs-grid-alt' ></i>
+                    <i class='bx bxs-grid-alt'></i>
                     <h3>Dashboard</h3>
                 </a>
                 <a class="active" href="customers.html">
-                    <i class='bx bxs-user-account' ></i>
+                    <i class='bx bxs-user-account'></i>
                     <h3>Customers</h3>
                 </a>
                 <a href="orders.html">
@@ -99,7 +102,7 @@
                     <h3>Reports</h3>
                 </a>
                 <a href="#">
-                    <i class='bx bxs-cog' ></i>
+                    <i class='bx bxs-cog'></i>
                     <h3>Settings</h3>
                 </a>
                 <a href="#">
@@ -113,49 +116,49 @@
             </div>
         </aside>
         <!--=================== END OF ASIDE ===================-->
-         <main>
-            <h1>Customers</h1>
-            <div class="updates">
+        <main>
+            <div class="updates" id="update-list">
+                <h1>Customers</h1>
                 <div class="update">
                     <div class="profile">
-                    <div class="profile-photo">
-                        <img src="assets/img-admin/profile-2.jpg" alt="">
-                    </div>
-                    <div class="message">
-                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
-                        <small class="text-muted">2 Minutes Ago</small>
-                    </div>
+                        <div class="profile-photo">
+                            <img src="assets/img-admin/profile-2.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b> Username: Mike Tyson</b> <br> Password: 1234</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
                     </div>
                     <div class="add-delete">
-                        <button class="remove"><i class='bx bx-minus'></i></button>
+                        <button class="remove" onclick="removeNameFromTheList(this)"><i class='bx bx-minus'></i></button>
                     </div>
                 </div>
                 <div class="update">
                     <div class="profile">
-                    <div class="profile-photo">
-                        <img src="assets/img-admin/profile-3.jpg" alt="">
-                    </div>
-                    <div class="message">
-                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
-                        <small class="text-muted">2 Minutes Ago</small>
-                    </div>
+                        <div class="profile-photo">
+                            <img src="assets/img-admin/profile-3.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b> Username: Mike Tyson</b> <br> Password: 1234</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
                     </div>
                     <div class="add-delete">
-                        <button class="remove"><i class='bx bx-minus'></i></button>
+                        <button class="remove" onclick="removeNameFromTheList(this)"><i class='bx bx-minus'></i></button>
                     </div>
                 </div>
                 <div class="update">
                     <div class="profile">
-                    <div class="profile-photo">
-                        <img src="assets/img-admin/profile-4.jpg" alt="">
-                    </div>
-                    <div class="message">
-                        <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
-                        <small class="text-muted">2 Minutes Ago</small>
-                    </div>
+                        <div class="profile-photo">
+                            <img src="assets/img-admin/profile-4.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b> Username: Mike Tyson</b> <br> Password: 1234</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
                     </div>
                     <div class="add-delete">
-                        <button class="remove"><i class='bx bx-minus'></i></button>
+                        <button class="remove" onclick="removeNameFromTheList(this)"><i class='bx bx-minus'></i></button>
                     </div>
                 </div>
             </div>
@@ -284,12 +287,20 @@
                 <div class="user-info">
                     <div class="user-add">
                         <div class="username">
-                            <label for="username">Username</label>
-                            <input type="text" placeholder="username">
+                            <input type="text" class="form__input" id="name" placeholder="Username" required="" />
+                            <label for="username" class="form__label">Username</label>
                         </div>
                         <div class="password">
-                            <label for="pass">Password</label>
-                            <input type="text" placeholder="password">
+                            <input type="password" class="form__input" id="pass" placeholder="Password" required="" />
+                            <label for="password" class="form__label">Password</label>
+                        </div>
+                    </div>
+                    <div class="add-choose">
+                        <button class="add-btn" id="addUserButton"><i class='bx bx-plus'></i></button>
+                        <div class="checkbox-wrapper-19">
+                            <h5>admin</h5>
+                            <input type="checkbox" id="cbtest-19" />
+                            <label for="cbtest-19" class="check-box">
                         </div>
                     </div>
                 </div>
@@ -398,5 +409,7 @@
     </div>
 
     <script src="assets/js/admin.js"></script>
+    <script src="assets/js/customers.js"></script>
 </body>
+
 </html>
