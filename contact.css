@@ -14,6 +14,21 @@
         font-family: 'BW GradualR';
         src: url(fonts/BwGradualDEMO-Regular.otf);
     }
+
+
+
+    .intro
+    {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #171717;
+        transition: 1s;
+    }
+
     body{
         background-color: rgb(20, 20, 20);
         color: white;
