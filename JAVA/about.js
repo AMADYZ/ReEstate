@@ -11,5 +11,5 @@ setTimeout(()=>
             setTimeout(() => {
                 intro.style.top='-100vh';
                 
-            }, 1200);
+            }, 600);
         })

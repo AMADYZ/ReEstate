@@ -2,6 +2,16 @@
 let ongo;
 let fail1,fail2;
 let check=false;
+
+let intro=document.querySelector('.intro');
+setTimeout(()=>
+        {
+            setTimeout(() => {
+                intro.style.left='-230vh';
+                
+            }, 600);
+        })
+
 function in_validate(form1){
     
      fail1=validateUserName1(form1.username_in.value);
