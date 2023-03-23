@@ -58,7 +58,7 @@ top: 10px;
 overflow: hidden;
 transition: 0.3s ease-in-out;
 }
-a{
+.nav1 a{
 text-decoration: none;
 font-family: BW Gradual ;
 font-size: 15px;
@@ -73,7 +73,7 @@ transition: 0.5s;
 -o-transition: 0.5s;
 }
 
-a::before{
+.nav1 a::before{
 position:absolute;
 content: '';
 height: 2px;
@@ -87,10 +87,10 @@ transition: 0.5s;
 -ms-transition:0.5s;
 -o-transition: 0.5s;
 }
-a:hover{
+.nav1 a:hover{
 color: white;
 }
-a:hover::before{
+.nav1 a:hover::before{
 width: 100%;
 height: 0.7px;
 }
