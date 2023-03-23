@@ -94,7 +94,7 @@ display: inline-block;
     margin-left: 0%;
 }
 .Bigtitle3{
-    margin-left: 0%;
+        margin-left: 0%;
         font-size: 2000%;
         font-family: 'BW Gradual';
         line-height: 150%;
@@ -166,3 +166,90 @@ color: lightgray;
     cursor: pointer;
     transform: translateX(14%);
  }
+ @media screen and (max-width: 1366px) {
+    .TopLsection1
+{
+    font-size: 800%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+ }
+ .Lsection2{
+    margin-right: 10%;
+ }
+ .inLsection2{
+    width: 100%;
+    margin-left: 6%;
+
+}
+.Rsection2
+{
+
+margin-left: 10%;
+}
+.title2{
+    font-size: 90%;
+    margin-top: 20px;
+    
+}
+.body2{
+    font-size: 90%;
+
+}
+.TopLeftRsection2{
+    display: inline-block;
+    margin-left:60%;
+}
+.TopRightRsection2{
+    display: inline-block;
+    margin-left:60%; 
+
+}
+.BotLeftRsection2{
+    display: inline-block;
+    margin-left:60%; 
+
+}
+.BotRightRsection2{
+    display: inline-block;
+    margin-left:60%;
+}
+.Bigtitle3{
+    margin-left: 0%;
+    font-size: 1530%;
+    font-family: 'BW Gradual';
+    line-height: 150%;
+    color: black;
+
+}
+.TopLsection4{
+    font-size: 170%;
+    font-family: "BW Gradual sans-serif";
+    margin-left: 28%;
+    }
+.midLsection4{
+    font-size: 130%;
+    font-family: "degular sans-serif";
+    margin-left: 28%;
+    margin-top: 10%;
+    color: lightgray;
+    }
+.imgsection4{
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+    }
+
+   
+     .section5{
+        font-size: 120px;
+        margin-left: 15%;
+        letter-spacing: 8px;
+        margin-bottom: 17%;
+        margin-top: 40%;
+     }
+     .arrow5{
+        height: 90px;
+     }
+}
