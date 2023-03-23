@@ -764,10 +764,9 @@
         display: flex;
 
     }
-    #img4
+    #img111
     {
-        height: 100px;
-
+       height: 100px; 
     }
     /*................ Responsive............. */
         @media screen and (max-width: 1366px)
@@ -833,7 +832,7 @@
         display: flex;
 
     }
-    #img4
+    #img111
     {
         height: 50px;
 
@@ -864,12 +863,13 @@
     .logo-header
     {
         position: absolute;
-        top: 15%;
-        left: 20%;
+        top: 30%;
+        left: 44%;
         transform: translate(-50%,-50%);
         color: white;
         font-family:'BW Gradual Bold' ;
         font-size: 50px;
+        display: flex;
     }
     .logo{
         position: relative;
@@ -1201,6 +1201,7 @@
     {
         display: block;
         margin-bottom: 30%;
+        margin-bottom: 40%;
     }
     .Rsection6
     {
@@ -1283,7 +1284,107 @@
        width: 40px;
        height: 40px;
     }
-   
+    .section7
+    {
+        margin-top: 15%;
+        color: white;
+        display: block;
+    }
+    .Lsection7{
+        max-width: 100%;
+        margin-left: 10%;
+        position: absolute;
+    }
+    .titleLsection7
+    {
+        font-family:'BW Gradual';
+        margin-bottom: 10%;
+        font-size: 24px;
+        
+        
+    }
+    .contentLsection7
+    {
+        font-size: 35px;
+        font-family: 'BW Gradual Bold';
+        line-height: 150%;
+    }
+    .contentLsection7 span{
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff;
+    }
+    .Rsection7
+    {
+        margin-bottom: 30%;
+    }
+    .Rsection7 img
+    {
+        box-shadow: 1px 2px 8px 4px rgba(256,256,256,0.1);
+        border-radius: 1%;
+
+
+    }
+    .img1section7
+    {
+       margin-left: 63%;
+       margin-top: -10%;
+       width: 30%;
+       height: 50%;
+       transition: 0.6s;
+    }
+    .img2section7
+    {
+        margin-left: 5%;
+        width: 40%;
+        height: 30%;
+        transition: 0.6s;
+    }
+    .img3section7
+    {
+        width: 25%;
+        height: 50%;
+        margin-left: 70%;
+        margin-top: -10%;
+        transition: 0.6s;
+    }
+    .img4section7
+    {
+        width: 25%;
+        height: 50%;
+        margin-left: 10%;
+        margin-top: -5%;
+        transition: 0.6s;
+    }
+    .img5section7
+    {
+        width: 35%;
+        height: 50%;
+        margin-left: 10%;
+        margin-top: 15%;
+        transition: 0.6s;
+
+
+    }
+
+
+    .section8
+    {
+        margin-top:70%;
+        color: #fff;
+        font-size: 30px;
+        font-family: 'BW Gradual';
+        margin-left: 12%;
+        letter-spacing: 10px;
+        margin-bottom: 20%;
+        display: flex;
+
+    }
+    #img111
+    {
+        height: 20px;
+
+    }
 
     
     
