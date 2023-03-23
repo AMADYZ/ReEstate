@@ -7,7 +7,6 @@ function in_validate(form1){
      fail2=validatepass1(form1.password_in.value);
     if(fail1&&fail2)
     {
-        
         return true;
     }
     else
