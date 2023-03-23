@@ -10,12 +10,7 @@ function changeBackground(){
     }
 
 }
-
-
 window.addEventListener('scroll',changeBackground);
-
-
-
 function myFunction(x) {
     if (x.matches) {
     num=6;
@@ -25,12 +20,14 @@ function myFunction(x) {
     }
 
 }
-
-
-
-
-
-
 var x = window.matchMedia("(max-width: 351px)");
 myFunction(x);
-x.addListener(myFunction);
+
+
+let check=localStorage.getItem('check');
+localStorage.clear();
+if(check)
+{
+    document.getElementById("searchnav").style="display:inline";
+    document.getElementById("Signupnav").style="display:none";
+}

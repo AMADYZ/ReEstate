@@ -1,15 +1,19 @@
 
 let ongo;
 let fail1,fail2;
+let check=false;
 function in_validate(form1){
     
      fail1=validateUserName1(form1.username_in.value);
      fail2=validatepass1(form1.password_in.value);
     if(fail1&&fail2)
     {
+        check=true;
+        localStorage.setItem('check',check.valueOf());
         return true;
     }
     else
+    check=false;
        return false; 
 }
 
@@ -61,5 +65,12 @@ function validatepass1(field){
     return true;
     }
 }
+
+
+
+
+
+
+
 
 
