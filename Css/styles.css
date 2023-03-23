@@ -303,6 +303,7 @@ line-height: 25px;
 }
 #product{
     text-align: center;
+    margin-top: 12px;
 }
 #product .pro{
     width: 23%;
@@ -384,13 +385,7 @@ padding-top: 7px ;
                     font-size: 30px;
                     padding: 10px 0;
                 }
-                #newsletter{
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;
-                    align-items: center;
-                    
-                }
+              
                 .container{
                     width: 1000px;
                     margin: auto;
@@ -421,7 +416,7 @@ padding-top: 7px ;
                     padding: 3px 10px;
                 }
                 .card{
-                    position: fixed;
+                    position:absolute;
                     top:0;
                     left: 100%;
                     width: 500px;
@@ -494,12 +489,17 @@ padding-top: 7px ;
                     padding: 10px 5px;
                     white-space: nowrap;
                     font-size: 20px;
+                    color: #7c142c;
+                    font-family: 'BW Gradual Bold';
+
                 }
                 .listCard .price{
                     display: inline-block;
                     padding: 30px 10px;
                     white-space: nowrap;
                     font-size: 20px;
+                    color: #7c142c;
+                    font-family: 'BW Gradual Bold';
                 }
                  @media screen and (max-width: 1023px){
                      #product .pro-container{
