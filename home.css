@@ -14,6 +14,8 @@
     font-family: 'BW GradualR';
     src: url(fonts/BwGradualDEMO-Regular.otf);
 }
+
+    
     .back {
         background-image: url(Images/thepress_crop_v3.webp);
         background-size: cover;
@@ -22,7 +24,15 @@
         position: relative;
         
     }
-
+    .signinbutton
+    {
+        position: fixed;
+        border-radius: 50%;
+        padding: 100px;
+        color: #000000;
+        margin-left: 40%;
+        
+    }
 
     .intro
     {
