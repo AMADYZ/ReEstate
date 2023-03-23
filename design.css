@@ -549,21 +549,21 @@
         cursor: pointer;
        transform: translateX(14%);
     }
-    /* RESPONSIVE */
-    @media screen and (max-width: 1366px)
-    {
-        .section8
+        /* RESPONSIVE */
+        @media screen and (max-width: 1366px)
         {
-            letter-spacing:0px;
-            margin-left: 15%;
+            .section8
+            {
+                letter-spacing:0px;
+                margin-left: 15%;
+            }
+            .imgs3{
+                margin-top: 100%;
+            }
+            .imgs9{
+                margin-top: 100%;
+            }
+            .imgs10{
+                margin-top: 100%;
+            }
         }
-        .imgs3{
-            margin-top: 100%;
-        }
-        .imgs9{
-            margin-top: 100%;
-        }
-        .imgs10{
-            margin-top: 100%;
-        }
-    }
