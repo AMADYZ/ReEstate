@@ -494,7 +494,7 @@ padding-top: 7px ;
                     white-space: nowrap;
                     font-size: 20px;
                 }
-                 @media screen and (min-width: 1023px){
+                 /* @media screen and (min-width: 1023px){
                      #product .pro-container{
                         display: flex;
                         justify-content: center;
@@ -556,6 +556,6 @@ padding-top: 7px ;
       
     }
 
-}
+} */
 
                   
