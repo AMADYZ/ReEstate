@@ -56,8 +56,12 @@ body{
 .Lection2{
     display: inline-block;
 }
+.Rsection2{
+display: inline-block;
+margin-left: 15%;
+}
 .inLsection2{
-    width: 50%;
+    width: 60%;
     margin-left: 6%;
     display: inline-block;
 
@@ -66,6 +70,7 @@ body{
     display: inline-block;
     /* margin: 2%; */
     margin-left: -180%;
+    margin-bottom: 0%;
 }
 .TopLeftRsection2
 {
@@ -76,12 +81,88 @@ display: inline-block;
 }
 .title2{
     color: gray;
-    font-size: 150%;
+    font-size: 110%;
     margin-top: 20px;
     
 }
 .body2{
-    font-size: 220%;
+    font-size: 110%;
 
 }
+/*---------section3----------*/
+.section3{
+    margin-left: 0%;
+}
+.Bigtitle3{
+    margin-left: 0%;
+        font-size: 2000%;
+        font-family: 'BW Gradual';
+        line-height: 150%;
+        color: black;
 
+}
+/*------section4--------*/
+.section4{
+    display: flex;
+    margin-top: -15%;
+
+}
+.TopLsection4{
+font-size: 210%;
+font-family: "BW Gradual sans-serif";
+margin-left: 28%;
+}
+.midLsection4{
+font-size: 150%;
+font-family: "degular sans-serif";
+margin-left: 28%;
+margin-top: 10%;
+color: lightgray;
+}
+.imgsection4{
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+}
+.botLsection4{
+    margin-top: 12%;
+    margin-left: 28%;
+
+}
+.arrowsection4{
+
+    margin-left: 4%;
+    transition: 0.5s;
+    display: inline-block;
+ }
+ .arrowsection4:hover
+ {
+     cursor: pointer;
+    transform: translateX(14%);
+ }
+ .arrow3{
+    width: 10%;
+ }
+ /*------section5-----*/
+ .section5{
+    color:white;
+    font-size: 160px;
+    font-family: 'BW Gradual';
+    margin-left: 17%;
+    letter-spacing: 10px;
+    margin-bottom: 17%;
+    display: flex;
+    margin-top: 40%;
+ }
+ .arrow5{
+    height: 90px;
+ }
+ .arrowsection5{
+    margin-left: 4%;
+    transition: 0.5s;
+    display: inline-block;
+ }
+ .arrowsection5:hover{
+    cursor: pointer;
+    transform: translateX(14%);
+ }
