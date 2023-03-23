@@ -1,21 +1,18 @@
 
-
-
-
-
 let ongo;
+let fail1,fail2;
 function in_validate(form1){
-    let fail1,fail2;
+    
      fail1=validateUserName1(form1.username_in.value);
      fail2=validatepass1(form1.password_in.value);
     if(fail1&&fail2)
     {
+        
         return true;
     }
     else
        return false; 
 }
-
 
 function validateUserName1(field){
    
