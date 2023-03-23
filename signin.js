@@ -9,6 +9,7 @@ function in_validate(form1){
     if(fail1&&fail2)
     {
         check=true;
+        localStorage.clear();
         localStorage.setItem('check',check.valueOf());
         return true;
     }
