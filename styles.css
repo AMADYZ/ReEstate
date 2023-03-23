@@ -384,8 +384,40 @@ padding-top: 7px ;
                     align-items: center;
                     
                 }
-                .modify{
-                    border-radius: 10px;
-                }
+                 @media screen and (min-width: 1023px){
+                     #product .pro-container{
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 20px;
+                        flex-wrap:wrap;
+                    }
+                    #product .pro{
+                       
+                        margin: 15px ;
+                    } 
+                    #banner {
+                        
+                        height: 35vh;
+                       
+                    }
+                    
+                    #details{
+                        display: flex;
+                        flex-direction: column;
+                    }    
+                    #details .spi{
+                        width: 100%;
+                        margin-right: 0px;
+                    }
+                    #details .spd{
+                        width: 100%;
+                      
+                    }
+                    }
+                
+
+ @media screen and (min-width: 1040px){
+
+}
 
                   
