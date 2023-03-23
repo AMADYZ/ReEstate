@@ -31,6 +31,6 @@ function myFunction(x) {
 
 
 
-var x = window.matchMedia("(max-width: 350px)");
+var x = window.matchMedia("(max-width: 351px)");
 myFunction(x);
 x.addListener(myFunction);
