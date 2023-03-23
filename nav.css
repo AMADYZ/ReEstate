@@ -50,7 +50,7 @@ opacity: 1;
 }
 nav {
 opacity: 0;
-width: 450px;
+width: 400px;
 height: 35px;
 position: absolute;
 right: 30px;
@@ -61,7 +61,7 @@ transition: 0.3s ease-in-out;
 a{
 text-decoration: none;
 font-family: BW Gradual ;
-font-size: 20px;
+font-size: 15px;
 color: #F2F2F2;
 margin-top: 100px;
 margin-right: 20px;
@@ -96,6 +96,8 @@ height: 0.7px;
 }
 .searchnav
 {
+   
+   
     display: none;
 }
 .Signupnav
