@@ -10,3 +10,7 @@ closeBtn.addEventListener('click', () =>
 {
     sideMenu.style.display = 'none';
 })
+
+// ---------------------- BASIC JS -----------------------
+
+
