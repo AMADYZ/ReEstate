@@ -205,7 +205,7 @@
         color: rgba(36, 36, 36, 0.9);
         font-size: 18px;
         font-family: 'Degular,sans-serif' ;
-        line-height: 31px;
+        line-height: 27px;
         padding-right: 2%;
         margin-bottom: 14%;
         display: inline-block;
@@ -221,6 +221,7 @@
         
         display: inline-block;
         margin-left:5%;
+        margin-right: 0%;
     }
     .rsection6{
         display: inline-block;
@@ -276,10 +277,33 @@
     display: inline-block;
    }
    .imgs3{
-    width: 200%;
-    height:90%;
+    width: 400%;
+    height: 65%;
     display: inline-block;
-    padding-left: -50px;
+    margin-left: -300%;
+    margin-top: 50%;
+    transition: all ease 0.8s;
+    
+    
+}
+.imgs9{
+    width: 400%;
+    height: 65%;
+    display: inline-block;
+    margin-left: -300%;
+    margin-top: 50%;
+    transition: all ease 0.8s;
+    
+    
+}
+.imgs10{
+    width: 400%;
+    height: 65%;
+    display: inline-block;
+    margin-left: -300%;
+    margin-top: 50%;
+    transition: all ease 0.8s;
+    
     
 }
 .imgs3:hover
@@ -364,7 +388,7 @@
         display: inline-block;
        }
      
-    .titlelsection9:before{
+            .titlelsection9:before{
                 content: attr(data-text);
                 position: absolute;
                 top: 0;
@@ -374,7 +398,7 @@
                 height: 0;
                 overflow: hidden;
             }
-    .titlelsection9:hover:before{
+            .titlelsection9:hover:before{
                 height: 100%;
             }
 
@@ -471,13 +495,13 @@
 .inLsection7
 {
     width: 100%;
-    transition: all ease 0.7s;
+    transition:all ease 0.7s;
     margin-left: 6%;
 
 }
 .Lsection7:hover
 {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .Rsection7
 {
@@ -540,3 +564,73 @@
        transform: translateX(14%);
     }
 
+    @media screen and (max-width: 1366px) {
+        .inRsection3{
+            display: flex;
+            font-size: 170%;
+        }
+        .lsection3{
+            font-size: 150%
+        }
+        .imgs2{
+            width: 180%;
+            height:70%;
+            margin-top: 13%;
+            
+        }
+        .titleRsection4
+        {
+            font-size: 120%;
+        }
+        .topRsection4{
+            font-size: 110%;
+            
+        }
+        .lsection5
+    {
+        font-size:370%
+    }
+    .inRsection5{
+        font-size: 90%;
+    }
+    .textfill{ 
+        font-size:80%;
+    }
+    .toplsection6{
+        font-size: 90%;
+        margin-top: 3%;
+       
+       }
+       .imgs3{
+        width: 350%;
+        height: 60%;
+       }
+       .imgs9{
+        width: 350%;
+        height: 60%;
+       }
+       .imgs10{
+        width: 350%;
+        height: 60%;
+       }
+       .toplsection9{
+        font-size: 90%;
+        margin-top: 3%;
+       
+       }
+       .toplsection10{
+        font-size: 90%;
+        margin-top: 3%;
+       
+       }
+       .section8{
+        font-size: 120px;
+        margin-left: 15%;
+        letter-spacing: 8px;
+        margin-bottom: 17%;
+        margin-top: 40%;
+     }
+     .img3{
+        height: 90px;
+     }
+    }
