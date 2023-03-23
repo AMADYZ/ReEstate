@@ -58,10 +58,15 @@
     }
 
     .inLsection2{
-        width: 75%;
+        width: 74%;
         max-width: 75%;
         margin-left: 6%;
-
+        border-radius: 2%;
+        transition: 0.8s;
+    }
+    .inLsection2:hover
+    {
+        width: 75%;
     }
     .topRsection2,.BottomRsection2
     {
@@ -189,7 +194,7 @@
         letter-spacing: 10px;
         margin-bottom: 17%;
         display: flex;
-        margin-top: 40%;
+        margin-top: 25%;
     }
     .arrow5{
         height: 90px;
