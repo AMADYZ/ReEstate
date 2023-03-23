@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'BW Gradual';
+    src: url(fonts/BwGradualDEMO-Medium.otf);
+}
+@font-face {
+    font-family: 'BW Gradual Bold';
+    src: url(fonts/BwGradualDEMO-Bold.otf);
+}
+@font-face {
+    font-family: 'Degular';
+    src: url(fonts/Degular-Light.ttf);
+}
+@font-face {
+    font-family: 'BW GradualR';
+    src: url(fonts/BwGradualDEMO-Regular.otf);
+}
+body{
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+.section1{
+    margin-bottom: 10%;
+}
+.TopLsection1
+{
+    font-size: 1000%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+
+
+}
+.TopLsection1 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.BotLsection1{
+    font-size: 300%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    color: grey;
+}
+.BotLsection1 span:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+/*---------section---------2*/
+.section2{
+    display: flex;
+
+}
+.Lection2{
+    display: inline-block;
+}
+.Rsection2{
+display: inline-block;
+margin-left: 15%;
+}
+.inLsection2{
+    width: 60%;
+    margin-left: 6%;
+    display: inline-block;
+
+}
+.TopRsection2{
+    display: inline-block;
+    /* margin: 2%; */
+    margin-left: -180%;
+    margin-bottom: 0%;
+}
+.TopLeftRsection2
+{
+display: inline-block;
+}
+.line2{
+    color: gray;
+}
+.title2{
+    color: gray;
+    font-size: 110%;
+    margin-top: 20px;
+    
+}
+.body2{
+    font-size: 110%;
+
+}
+/*---------section3----------*/
+.section3{
+    margin-left: 0%;
+}
+.Bigtitle3{
+        margin-left: 0%;
+        font-size: 2000%;
+        font-family: 'BW Gradual';
+        line-height: 150%;
+        color: black;
+
+}
+/*------section4--------*/
+.section4{
+    display: flex;
+    margin-top: -15%;
+
+}
+.TopLsection4{
+font-size: 210%;
+font-family: "BW Gradual sans-serif";
+margin-left: 28%;
+}
+.midLsection4{
+font-size: 150%;
+font-family: "degular sans-serif";
+margin-left: 28%;
+margin-top: 10%;
+color: lightgray;
+}
+.imgsection4{
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+}
+.botLsection4{
+    margin-top: 12%;
+    margin-left: 28%;
+
+}
+.arrowsection4{
+
+    margin-left: 4%;
+    transition: 0.5s;
+    display: inline-block;
+ }
+ .arrowsection4:hover
+ {
+     cursor: pointer;
+    transform: translateX(14%);
+ }
+ .arrow3{
+    width: 10%;
+ }
+ /*------section5-----*/
+ .section5{
+    color:white;
+    font-size: 160px;
+    font-family: 'BW Gradual';
+    margin-left: 17%;
+    letter-spacing: 10px;
+    margin-bottom: 17%;
+    display: flex;
+    margin-top: 40%;
+ }
+ .arrow5{
+    height: 90px;
+ }
+ .arrowsection5{
+    margin-left: 4%;
+    transition: 0.5s;
+    display: inline-block;
+ }
+ .arrowsection5:hover{
+    cursor: pointer;
+    transform: translateX(14%);
+ }
+ @media screen and (max-width: 1366px) {
+    .TopLsection1
+{
+    font-size: 800%;
+    font-family: 'BW Gradual';
+    line-height: 130%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+ }
+ .Lsection2{
+    margin-right: 10%;
+ }
+ .inLsection2{
+    width: 100%;
+    margin-left: 6%;
+
+}
+.Rsection2
+{
+
+margin-left: 10%;
+}
+.title2{
+    font-size: 90%;
+    margin-top: 20px;
+    
+}
+.body2{
+    font-size: 90%;
+
+}
+.TopLeftRsection2{
+    display: inline-block;
+    margin-left:60%;
+}
+.TopRightRsection2{
+    display: inline-block;
+    margin-left:60%; 
+
+}
+.BotLeftRsection2{
+    display: inline-block;
+    margin-left:60%; 
+
+}
+.BotRightRsection2{
+    display: inline-block;
+    margin-left:60%;
+}
+.Bigtitle3{
+    margin-left: 0%;
+    font-size: 1530%;
+    font-family: 'BW Gradual';
+    line-height: 150%;
+    color: black;
+
+}
+.TopLsection4{
+    font-size: 170%;
+    font-family: "BW Gradual sans-serif";
+    margin-left: 28%;
+    }
+.midLsection4{
+    font-size: 130%;
+    font-family: "degular sans-serif";
+    margin-left: 28%;
+    margin-top: 10%;
+    color: lightgray;
+    }
+.imgsection4{
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+    }
+
+   
+     .section5{
+        font-size: 120px;
+        margin-left: 15%;
+        letter-spacing: 8px;
+        margin-bottom: 17%;
+        margin-top: 40%;
+     }
+     .arrow5{
+        height: 90px;
+     }
+}
