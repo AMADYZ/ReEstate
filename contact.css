@@ -58,7 +58,8 @@
     }
 
     .inLsection2{
-        width: 50%;
+        width: 75%;
+        max-width: 75%;
         margin-left: 6%;
 
     }
@@ -68,11 +69,56 @@
     }
     .phonetel
     {
-        margin-left: -115%;
+        margin-left: -25%;
     }
     .inphonetel
     { 
         font-family: 'Degular';
+        margin-top: 5%;
+        font-size: 20px;
+        color: rgb(159, 159, 159);
+    }
+    .thephonetel
+    {
+        font-family: 'BW Gradual';
+        font-size: 30px;
+        margin-top: 10%;
+    }
+    .line1
+    {
+        margin-left: 25%;
+    }
+
+    
+    .inAddress
+    {
+        font-family: 'Degular';
+        margin-top: 5%;
+        font-size: 20px;
+        color: rgb(159, 159, 159);
+        margin-left: 25%;
+    }
+    .theAddress
+    {
+        font-family: 'BW Gradual';
+        font-size: 30px;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .gathered
+    {
+        margin-top: 40%;
+        margin-left: -25%;
+    }
+    .gathered2
+    {
+        margin-top: 40%;
+        margin-left: 20%;
+    }
+    .thegathred,.thegathred1
+    {
+        font-family: 'BW GradualR';
+        margin-top: 5%;
     }
 
 
