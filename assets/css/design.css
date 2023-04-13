@@ -52,6 +52,19 @@
     border-radius: 50%; */
 }
 
+.navigation{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 .intro {
     position: fixed;
     z-index: 1;
@@ -644,13 +657,98 @@
 
     .intro {
         position: fixed;
-        z-index: 1;
+        z-index: 102;
         left: 0;
         top: 0;
         width: 100%;
         height: 100%;
         background-color: #171717;
         transition: 1s;
+    }
+
+    #menuToggle-about span,.nav-menu, #menuToggle-about input{
+        display: none;
+    }
+
+    .navigation{
+        display: inline;
+        position: fixed;
+        right: -100%;
+        width: 350px;
+        height: 100%;
+        background-color: #000;
+        transition: .5s;
+        z-index: 100;
+    }
+
+    .mobile_nav a,.hamburger{
+        cursor: pointer;
+    }
+
+    .mobile_nav{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        width: 250px;
+    }
+
+    .navigation ul li{
+        color: #fff;
+        text-align: right;
+        text-transform: uppercase;
+        list-style-type: none;
+        font-size: 1.5em;
+        border-bottom: 1px solid #252525;
+        z-index: 101;
+        margin-top: 30%;
+        color: #fff;
+    }
+
+    .hamburger, .bar{
+        position: fixed;
+    }
+
+    .hamburger{
+        display: block;
+        top: 5%;
+        left: 85%;
+        width: 25px;
+        height: 10px;
+        transform: translateY(-50%);
+        border: 0;
+        background: 0 0;
+    }
+
+    .bar{
+        top: 3px;
+        background: #000;
+        width: 100%;
+        height: 4px;
+        transition: all .3s ease-in;
+    }
+
+    #bar2{
+        top: 11px;
+    }
+
+    #bar3{
+        top: 19px;
+    }
+
+    .navigation.active{
+        right: 0;
+        width: 100%;
+    }
+
+
+    .hamburger.open #bar1{
+        transform: rotate(45deg) translate(6px, 5px);
+    }
+    .hamburger.open #bar2{
+        background-color: transparent;
+    }
+    .hamburger.open #bar3{
+        transform: rotate(-45deg) translate(6px, -5px);
     }
     .Lsection2 {
         font-size: 4rem;
