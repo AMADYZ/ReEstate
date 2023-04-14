@@ -684,6 +684,10 @@
     .mobile_nav a,.hamburger{
         cursor: pointer;
     }
+    .mobile_nav a{
+        color: white;
+        text-decoration: none;
+    }
 
     .mobile_nav{
         position: absolute;
@@ -697,11 +701,12 @@
         text-align: right;
         text-transform: uppercase;
         list-style-type: none;
-        font-size: 1.5em;
-        border-bottom: 1px solid #252525;
-        z-index: 101;
+        font-size: 1.75em;
         margin-top: 30%;
-        color: #fff;
+        width: 20%;
+        padding-left: 20%;
+        font-family: 'BW Gradual Bold';
+        text-decoration: underline;
     }
 
     .hamburger, .bar{
@@ -738,6 +743,7 @@
     .navigation.active{
         right: 0;
         width: 100%;
+        z-index: 100;
     }
 
 
